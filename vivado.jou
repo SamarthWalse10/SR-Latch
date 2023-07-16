@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Nov 22 21:53:20 2022
+# Process ID: 9428
+# Current directory: D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/sr_latch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16028 D:\samarth educational\IIT MANDI\Sem-3\EE210P Digital Systems Design Lab\sr_latch\sr_latch.xpr
+# Log file: D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/sr_latch/vivado.log
+# Journal file: D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/sr_latch\vivado.jou
+# Running On: Samarth, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16936 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/sr_latch/sr_latch.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source sr_latch_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project {D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/asyn_up_down_counter_6bit/asyn_up_down_counter_6bit.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source asyn_up_down_counter_6bit_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project {D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/bcd_up_counter/bcd_up_counter.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source bcd_up_counter_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+close_project
+open_project {D:/samarth educational/IIT MANDI/Sem-3/EE210P Digital Systems Design Lab/clock_generator/clock_generator.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source clk_gen_tb.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source clk_gen_tb.tcl
+close_sim
