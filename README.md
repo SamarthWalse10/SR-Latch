@@ -1,4 +1,4 @@
-# SR-Latch
+# SR-Latch-Verilog
 Verilog SR Latch: Design and Implementation in Xilinx Vivado.      
 
 This repository contains the design and implementation of an SR latch using Verilog in Xilinx Vivado. The SR latch is a fundamental building block in digital circuit design, and this project aims to provide a clear and concise example of its implementation using Verilog HDL and Xilinx Vivado.
